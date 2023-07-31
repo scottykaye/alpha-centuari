@@ -1,5 +1,14 @@
-import Image from 'next/image';
+import Button from 'packages/components/Button';
+import Stack from 'packages/components/Stack';
 
 export default function Home() {
-  return <main>Let's get building</main>;
+  return (
+    <main>
+      <Stack gap={4}>
+        <Button>test</Button>
+        <Button disabled>test</Button>
+        <Button variant="ghost">test</Button>
+      </Stack>
+    </main>
+  );
 }
