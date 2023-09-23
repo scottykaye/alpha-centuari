@@ -19,9 +19,8 @@
   }
 }
 
-html {
-  display: grid;
-  place-items: center;
+html,
+body {
   height: 100%;
 }
 
