@@ -1,19 +1,20 @@
 import Button from 'packages/components/Button';
 import Stack from 'packages/components/Stack';
+import Heading from '@components/Heading';
 
 export default function Home() {
   return (
     <main>
       <Stack gap={5} p={10}>
         <div>
-          <h3>Variants</h3>
+          <Heading is="h3">Variants</Heading>
           <div>
             Primary <Button>test</Button>
           </div>
           Ghost <Button variant="ghost">test</Button>
         </div>
         <div>
-          <h3>Full Width</h3>
+          <Heading is="h3">Full Width</Heading>
           <div>
             Primary <Button isFullWidth>test</Button>
           </div>
@@ -23,7 +24,7 @@ export default function Home() {
           </Button>
         </div>
         <div>
-          <h3>Disabled</h3>
+          <Heading is="h3">Disabled</Heading>
           <div>
             Primary <Button disabled>test</Button>
           </div>
