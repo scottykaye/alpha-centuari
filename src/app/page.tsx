@@ -1,14 +1,12 @@
-import Button from '../components/Button';
-import Stack from '../components/Stack';
-import Heading from '../components/Heading';
-import { Sidebar, SidebarWrapper, SidebarContent } from '../components/Sidebar';
-import Link from 'next/link';
+import Button from "../components/Button";
+import Stack from "../components/Stack";
+import Heading from "../components/Heading";
+import Sidebar, { SidebarWrapper, SidebarContent } from "../components/Sidebar";
+import Link from "next/link";
 
 export default function Home() {
-  console.log(Sidebar.Content);
   return (
     <SidebarWrapper>
-      
       <Sidebar>
         <Stack gap={1}>
           <Button is={Link} href="/">
